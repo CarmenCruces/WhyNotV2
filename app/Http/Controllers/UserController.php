@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 /**
  * Class UserController
- * @package App\Http\Controllers
+ *  @package App\Http\Controllers
  */
 class UserController extends Controller
 {

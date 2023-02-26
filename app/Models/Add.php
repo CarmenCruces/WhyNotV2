@@ -11,12 +11,12 @@ use Illuminate\Database\Eloquent\Model;
  * @property $created_at
  * @property $updated_at
  *
- * @package App
+ *  @package App
  * @mixin \Illuminate\Database\Eloquent\Builder
  */
 class Add extends Model
 {
-    
+
     static $rules = [
     ];
 
@@ -27,7 +27,11 @@ class Add extends Model
      *
      * @var array
      */
-    protected $fillable = [];
+    protected $fillable = [
+        'title',
+        'description',
+        'contact',
+    ];
 
 
 
